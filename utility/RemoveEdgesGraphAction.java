@@ -24,7 +24,6 @@ public class RemoveEdgesGraphAction implements GraphAction
 		for(Edge e : edges)
 		{
 			G.addEdge(e);
-			System.out.println(e.getA().getName() + " " + e.getB().getName() + " " + e.getWeight());
 		}
 			
 	}

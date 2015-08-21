@@ -69,7 +69,7 @@ public class Graph2D extends Graph
 		
 		Stack<IntPair> Q = new Stack<IntPair>();
 		Line2D line1 = new Line2D.Float(x1, y1, x2, y2);
-		int edgeslimit = (isDirected() ? G.size() : G.size()/2);
+		int edgeslimit = G.size();
 		for(int i = 0; i < G.size(); i++)
 			for(int j = 0; j < edgeslimit; j++)
 			{

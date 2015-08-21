@@ -120,7 +120,7 @@ public class GraphComponentKeyShortcuts implements KeyListener
 							}
 							break;
 						case KeyEvent.VK_Z:
-							comp.undo();
+							//comp.undo();
 							break;
 					}
 				else
